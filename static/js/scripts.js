@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   await fetchApi();
   document
     .getElementById("contactForm")
-    .addEventListener("submit", handleFormSubmit);
+    .addEventListener("submit", handleButton);
 });
 
 //pega o conteúdo do meu arquivo JSON
@@ -115,11 +115,11 @@ const updateUserList = (usersList) => {
 };
 
 //ação para quando o botão for pressionado
-const handleFormSubmit = (event) => {
+const handleButton = (event) => {
   event.preventDefault();
   //aqui vai uma lógica para envio dos dados para um banco de dados
   console.log("Aqui eu envio para um banco de dados");
   
   alert("Formulário enviado com sucesso!");
-  open('/');
+  window.location.href = '/';
 };

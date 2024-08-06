@@ -1,0 +1,33 @@
+{
+    "navigation": {
+        "home": {
+            "text": "Início",
+            "url": "/index.html"
+        },
+        "about": {
+            "text": "Sobre",
+            "url": "https://www.ipm.com.br/institucional/"
+        }
+    },
+    "header": {
+        "logo": "assets/images/nws_logo_ipm.png",
+        "alt": "ipm_sistemas"
+    },
+    "mainContent": {
+        "title": "Bem-vindo a equipe IPM Sistemas!",
+        "paragraph": "Caso tenha alguma dúvida sobre a empresa que não esteja explicada no 'Sobre' do site, envie sua mensagem.",
+        "mainImage": "assets/images/ipm_img.png",
+        "alt": "ipm_sistemas"
+    },
+    "contactForm": {
+        "title": "Contato",
+        "name": "Nome:",
+        "email": "E-mail:",
+        "message": "Mensagem:",
+        "submit": "Enviar"
+    },
+    "footer": {
+        "linkedin": "LinkedIn",
+        "github": "Git Hub"
+    }
+}

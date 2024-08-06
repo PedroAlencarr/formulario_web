@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FF872C;
+    color: #363F5F;
+}
+
+header:hover {
+    background-color: #5636D3; 
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+#home {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* animação na imagem feita abaixo */
+#mainImage {
+    margin: 0 auto; 
+    width: 200px; 
+    height: auto; 
+    animation: moveAndFade 5s ease-in-out forwards; /* Nome da animação, duração, tipo de tempo e finalização */
+}
+
+@keyframes moveAndFade {
+    0% {
+        transform: translateX(100%); /* Começa fora da section à direita */
+        opacity: 0.2; /* Começa opaco */
+    }
+    100% {
+        transform: translateX(0); /* Posição final da imagem */
+        opacity: 1; /* Opacidade final da imagem */
+    }
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF872C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 100px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #5636D3;
+}
+
+footer {
+    background-color: #5636D3;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    max-width: 100%;
+    bottom: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 24px;
+} 
+
+footer ul li a:hover {
+    color: #FF872C; 
+}

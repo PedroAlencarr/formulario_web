@@ -21,9 +21,9 @@
     },
     "contactForm": {
         "title": "Contato",
-        "name": "Nome:",
-        "email": "E-mail:",
-        "message": "Mensagem:",
+        "name": "Nome: *",
+        "email": "E-mail: *",
+        "message": "Mensagem: *",
         "submit": "Enviar"
     },
     "users": "Lista de Funcionários IPM Florianópolis",

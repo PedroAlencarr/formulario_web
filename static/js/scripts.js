@@ -42,8 +42,8 @@ const fetchApi = async () => {
         //aqui, diferente de outras imagens, eu criei as tags html dentro do código javascript
         li.innerHTML = `
               <img src="${user.picture.thumbnail}" alt="Profile Picture" />
-              <p>Name: ${user.name.first} ${user.name.last}</p>
-              <p>Email: ${user.email}</p>
+              <p><b>Name:</b> ${user.name.first} ${user.name.last}</p>
+              <p><b>Email:</b> ${user.email}</p>
           `;
         userList.appendChild(li);
       });

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedro Alencar na IPM!</title>
+    <!-- <link rel="stylesheet" href="../static/styles/styles.css" /> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles/styles.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img id="headerLogo" alt="Logo" class="logo" />
+      <nav>
+        <ul id="navbar">
+          <!-- itens inseridos dinâmicamente aqui -->
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- conteudo principal + imagem -->
+      <section id="home">
+        <h1 id="mainTitle"></h1>
+        <p id="mainParagraph"></p>
+        <div id="mainImageAnimated">
+          <img id="mainImage" alt="image" />
+        </div>
+      </section>
+      <!-- formulário -->
+      <section id="contact">
+        <h2 id="contactTitle"></h2>
+        <div class="container">
+          <form id="contactForm">
+            <label for="name" id="labelName"></label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ex: João da Silva"
+              required
+            />
+
+            <label for="email" id="labelEmail"></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="email@exemplo.com"
+              required
+            />
+
+            <label for="message" id="labelMessage"></label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Digite sua mensagem"
+              maxlength="300"
+              required
+            ></textarea>
+
+            <button type="submit" id="submitButton"></button>
+          </form>
+        </div>
+      </section>
+      <!-- lista de usuários vindas da api  -->
+      <section>
+        <h2 id="user-list-title"></h2>
+        <ul id="user-list"></ul>
+      </section>
+    </main>
+    <!-- nesse footer eu escolhi manipular no modo tradicional, diferente da navbar -->
+    <footer>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/pedroalencarr/"
+            target="_blank"
+            id="footerLinkedin"
+            class="fab fa-linkedin"
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/PedroAlencarr"
+            target="_blank"
+            id="footerGithub"
+            class="fab fa-github"
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+  </body>
+</html>

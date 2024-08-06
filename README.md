@@ -17,8 +17,8 @@ Este projeto é uma aplicação web que utiliza Flask para servir um frontend di
 1. Clone o repositório:
 
 ```bash
-git clone <https://github.com/PedroAlencarr/formulario_web>
-cd <formulario web>
+git clone https://github.com/PedroAlencarr/formulario_web
+cd formulario web
 Crie e ative um ambiente virtual:
 ```
 2. Crie e ative um ambiente virtual:

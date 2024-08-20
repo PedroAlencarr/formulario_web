@@ -6,18 +6,18 @@
         },
         "about": {
             "text": "Sobre",
-            "url": "https://www.ipm.com.br/institucional/"
+            "url": "https://www.linkedin.com/in/pedroalencarr/"
         }
     },
     "header": {
         "logo": "/static/images/nws_logo_ipm.png",
-        "alt": "ipm_sistemas"
+        "alt": "pedro_alencar"
     },
     "mainContent": {
-        "title": "Bem-vindo a equipe IPM Sistemas!",
+        "title": "Bem-vindo ao projeto!",
         "paragraph": "Caso tenha alguma dúvida sobre a empresa que não esteja explicada no 'Sobre' do site, envie sua mensagem.",
         "mainImage": "/static/images/ipm_img.png",
-        "alt": "ipm_sistemas"
+        "alt": "pedro_alencar"
     },
     "contactForm": {
         "title": "Contato",
@@ -26,7 +26,7 @@
         "message": "Mensagem: *",
         "submit": "Enviar"
     },
-    "users": "Lista de Funcionários IPM Florianópolis",
+    "users": "Lista de Funcionários Florianópolis",
     "footer": {
         "linkedin": "LinkedIn",
         "github": "Git Hub"

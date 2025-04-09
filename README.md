@@ -109,5 +109,3 @@ git push origin minha-nova-feature
 
 
 
-# Comentário pessoal
-**Se fosse de tecnologia de livre uso, eu teria usado React e bibliotecas para animação que poderiam ter deixado a página de um modo mais moderno ainda, mas acredito que fiz um bom trabalho dentro dos meus conhecimentos em javascript e a minha capacidade de ler documentações.**
